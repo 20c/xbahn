@@ -1,11 +1,11 @@
 
 # xbahn
 
-[![PyPI](https://img.shields.io/pypi/v/xbahn.svg?maxAge=3600)](https://pypi.python.org/pypi/xbahn)
-[![Travis CI](https://img.shields.io/travis/20c/xbahn.svg?maxAge=3600)](https://travis-ci.org/20c/xbahn)
+[![PyPI](https://img.shields.io/pypi/v/xbahn.svg?maxAge=600)](https://pypi.python.org/pypi/xbahn)
+[![Travis CI](https://img.shields.io/travis/20c/xbahn.svg?maxAge=600)](https://travis-ci.org/20c/xbahn)
 [![Code Health](https://landscape.io/github/20c/xbahn/master/landscape.svg?style=flat)](https://landscape.io/github/20c/xbahn/master)
-[![Codecov](https://img.shields.io/codecov/c/github/20c/xbahn/master.svg?maxAge=3600)](https://codecov.io/github/20c/xbahn)
-[![Requires.io](https://img.shields.io/requires/github/20c/xbahn.svg?maxAge=3600)](https://requires.io/github/20c/xbahn/requirements)
+[![Codecov](https://img.shields.io/codecov/c/github/20c/xbahn/master.svg?maxAge=600)](https://codecov.io/github/20c/xbahn)
+[![Requires.io](https://img.shields.io/requires/github/20c/xbahn.svg?maxAge=600)](https://requires.io/github/20c/xbahn/requirements)
 
 ### Documentation (work in progress)
 
