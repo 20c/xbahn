@@ -1,0 +1,10 @@
+site_name: xbahn
+site_url: https://github.com/20c/xbahn
+theme: readthedocs
+
+pages:
+  - Home: index.md
+  - Examples: examples.md
+
+markdown_extensions:
+  - markdown_include.include

@@ -1,0 +1,6 @@
+codecov==2.0.5
+coverage==4.1
+pytest==2.9.2
+pytest-timeout==1.0.0
+pytest-cov==2.2.1
+tox==2.3.1
