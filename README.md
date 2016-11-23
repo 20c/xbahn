@@ -7,6 +7,10 @@
 [![Codecov](https://img.shields.io/codecov/c/github/20c/xbahn/master.svg?maxAge=3600)](https://codecov.io/github/20c/xbahn)
 [![Requires.io](https://img.shields.io/requires/github/20c/xbahn.svg?maxAge=3600)](https://requires.io/github/20c/xbahn/requirements)
 
+### Documentation (work in progress)
+
+http://xbahn.readthedocs.io/
+
 ### License
 
 Copyright 2016 20C, LLC
