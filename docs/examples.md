@@ -1,3 +1,51 @@
+# Messaging
+
+## Sending and Responding
+
+In order to send and respond to messages xbahn utilizes an event system.
+
+### Server
+
+```py
+{!examples/messaging/events/server.py!}
+```
+### Client
+
+```py
+{!examples/messaging/events/client.py!}
+```
+
+You could also attach a handler to the "response" event of the message itself
+
+```py
+{!examples/messaging/events/message-response-event.py!}
+```
+
+## Xbahn Pathing
+
+At the core of xbahn lies a message routing system working with '.' delimited paths.
+
+```
+a.b.c
+```
+
+### Server
+
+```py
+{!examples/messaging/path/server.py!}
+```
+### Client
+
+```py
+{!examples/messaging/path/client.py!}
+```
+
+The result on the server
+
+```
+{!examples/messaging/path/result.txt!}
+```
+
 # API
 
 A few examples to get you started with the xbahn API, using zmq as a handler.

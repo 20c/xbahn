@@ -1,0 +1,4 @@
+Server running!
+Message arrived PERSON John Smith person
+Message arrived ADDRESS Some Street, 123 address
+Message arrived ADDRESS Another Street, 123 address.usa
