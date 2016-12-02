@@ -17,6 +17,8 @@ setup(
     license='LICENSE.txt',
     classifiers=[
         'Development Status :: 4 - Beta',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
         'License :: OSI Approved :: Apache Software License',
     ],
     packages = find_packages(),
