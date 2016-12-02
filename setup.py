@@ -23,8 +23,8 @@ setup(
     ],
     packages = find_packages(),
     include_package_data=True,
-    #url='https://github.com/20c/xbahn',
-    #download_url='https://github.com/20c/xbahn/%s' % version,
+    url='https://github.com/20c/xbahn',
+    download_url='https://github.com/20c/xbahn/%s' % version,
 
     entry_points={
         'console_scripts' : [
