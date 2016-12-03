@@ -81,6 +81,9 @@ def config_from_url(u, **kwargs):
 
 class Connection(BaseConnection):
 
+    sender_types = [zmq.PUB, zmq.REQ, zmq.PUSH]
+    responder_types = [zmq.REP]
+
     def __init__(self, **kwargs):
         super(Connection, self).__init__()
         for k,v in list(kwargs.items()):
@@ -105,6 +108,14 @@ class Connection(BaseConnection):
     @property
     def bound(self):
         return self.socket and not self.socket.closed
+
+    @property
+    def can_respond(self):
+        return self.typ in self.responder_types
+
+    @property
+    def can_send(self):
+        return self.typ in self.sender_types
 
     @property
     def remote(self):
@@ -280,6 +291,7 @@ class REP_Connection(Connection):
                 try:
                     self.receive()
                 except Exception as inst: #FIXME
+                    self.log_debug("Poller error: %s" % str(inst))
                     pass
             if self.close_when_ready:
                 self.destroy()

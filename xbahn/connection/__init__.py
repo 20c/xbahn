@@ -95,6 +95,30 @@ class Connection(EventMixin, LogMixin, threading.Thread):
         """
         return 0
 
+    @property
+    def can_receive(self):
+        """
+        Should return whether or not this connection can receive
+        data
+        """
+        return True
+
+    @property
+    def can_respond(self):
+        """
+        Should return whether or not this connection can respond
+        to incoming data
+        """
+        return True
+
+    @property
+    def can_send(self):
+        """
+        Should return whether or not this connection can initiate
+        requests
+        """
+        return True
+
     def make_data(self, message):
 
         """
